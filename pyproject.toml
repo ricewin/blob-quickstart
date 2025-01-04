@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "blob-quickstart"
+version = "0.1.0"
+description = ""
+authors = ["Ricewin <101691318+ricewin@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+azure-storage-blob = "^12.24.0"
+azure-identity = "^1.19.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
